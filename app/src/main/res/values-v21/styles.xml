@@ -15,8 +15,11 @@
         <item name="floatLabelPaddingRight">@dimen/pref_autofill_field_horizontal_padding</item>
         <item name="floatLabelPaddingTop">@dimen/pref_autofill_field_top_margin</item>
         <item name="actionBarStyle">@style/PreferenceActionBarModern</item>
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
     </style>
-    <style name="PreferencesDialogTheme" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+    <style name="PreferencesDialogTheme" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@color/page_bg</item>
         <item name="android:colorAccent">@color/pref_accent_color</item>
     </style>
     <style name="PreferenceCategoryWithButtonStyle">

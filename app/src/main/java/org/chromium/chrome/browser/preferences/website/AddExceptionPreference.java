@@ -14,6 +14,7 @@ import android.os.Vibrator;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.provider.Settings;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -158,7 +159,7 @@ public class AddExceptionPreference extends Preference implements OnPreferenceCl
                 }
 
                 okButton.setEnabled(!hasError && hostname.length() > 0);
-                input.setTextColor(hasError ? Color.RED : Color.BLACK);
+                input.setTextColor(hasError ? Color.RED :  ContextCompat.getColor(getContext(), R.color.text_color_primary));
             }
         });
     }

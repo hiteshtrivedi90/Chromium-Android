@@ -610,6 +610,6 @@ public class EditorDialog
 
     private Drawable getBlackTintedBackIcon() {
         return TintedDrawable.constructTintedDrawable(
-                getContext(), R.drawable.ic_arrow_back_white_24dp, android.R.color.black);
+                getContext(), R.drawable.ic_arrow_back_white_24dp, android.R.color.white);
     }
 }
