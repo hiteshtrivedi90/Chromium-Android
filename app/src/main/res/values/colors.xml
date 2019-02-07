@@ -211,5 +211,6 @@
     <color name="action_bar_bg">#4d4d4d</color>
     <color name="text_color_primary">@android:color/white</color>
     <color name="text_color_secondary">#C0C0C0</color>
+    <color name="bookmark_search_view_text">#424949</color>
 
 </resources>

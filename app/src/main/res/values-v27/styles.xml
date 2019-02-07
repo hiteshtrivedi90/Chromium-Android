@@ -19,7 +19,7 @@
         <item name="android:windowLightNavigationBar">true</item>
     </style>
     <style name="ThemeWithActionBar" parent="ThemeWithActionBarBase">
-        <item name="android:navigationBarColor">@color/action_bar_bg</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
         <!--suppress NewApi: crbug.com/856861-->
         <item name="android:navigationBarDividerColor">@color/bottom_system_nav_divider_color</item>
         <!--suppress NewApi: crbug.com/856861-->
