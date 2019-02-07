@@ -131,7 +131,7 @@
     <color name="progress_bar_background_white">@color/black_alpha_30</color>
 
     <!-- Theme colors. Also used for toolbar background -->
-    <color name="incognito_primary_color">#505050</color>
+    <color name="incognito_primary_color">@color/action_bar_bg</color>
     <color name="incognito_modern_primary_color">@color/modern_grey_800</color>
     <color name="modern_primary_color">@color/action_bar_bg</color>
 
@@ -200,8 +200,8 @@
     <color name="image_viewer_bg">#0E0E0E</color>
     <color name="modern_blue_600_alpha_38_opaque">#A8CAF6</color>
     <color name="toolbar_shadow_color">@color/black_alpha_11</color>
-    <color name="bottom_system_nav_color">@android:color/white</color>
-    <color name="bottom_system_nav_divider_color">@color/black_alpha_12</color>
+    <color name="bottom_system_nav_color">@android:color/black</color>
+    <color name="bottom_system_nav_divider_color">@color/white_alpha_65</color>
     <color name="search_box_hint">@color/default_text_color_secondary</color>
     <color name="placeholder_thumbnail_bg_color">#DADCE0</color>
     <color name="clear_browsing_data_selected_tab_color">@color/modern_blue_600</color>
@@ -211,6 +211,6 @@
     <color name="action_bar_bg">#4d4d4d</color>
     <color name="text_color_primary">@android:color/white</color>
     <color name="text_color_secondary">#C0C0C0</color>
-    <color name="bookmark_search_view_text">#424949</color>
+    <color name="bookmark_search_view_text">@color/text_color_primary</color>
 
 </resources>

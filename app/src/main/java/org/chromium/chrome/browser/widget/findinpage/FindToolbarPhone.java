@@ -7,6 +7,7 @@ package org.chromium.chrome.browser.widget.findinpage;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.content.res.AppCompatResources;
 import android.util.AttributeSet;
 import android.view.View;
@@ -55,9 +56,9 @@ public class FindToolbarPhone extends FindToolbar {
             mCloseFindButton.setTint(white);
             queryTextColorId = R.color.find_in_page_query_white_color;
         } else {
-            setBackgroundColor(Color.WHITE);
+            setBackgroundColor(ContextCompat.getColor(getContext(), R.color.action_bar_bg));
             ColorStateList dark =
-                    AppCompatResources.getColorStateList(getContext(), R.color.dark_mode_tint);
+                    AppCompatResources.getColorStateList(getContext(), R.color.light_mode_tint);
             mFindNextButton.setTint(dark);
             mFindPrevButton.setTint(dark);
             mCloseFindButton.setTint(dark);
