@@ -25,6 +25,7 @@
         <item name="colorPrimaryDark">@android:color/black</item>
         <item name="android:colorAccent" tools:targetApi="21">@color/light_active_color</item>
         <item name="android:statusBarColor" tools:targetApi="21">@android:color/black</item>
+        <!--<item name="android:windowDisablePreview">true</item>-->
 
         <!--  Overriding AppCompat values -->
         <!-- TODO(huayinz): Change this when the color for checkboxes are updated to modern. -->
@@ -109,7 +110,7 @@
     </style>
 
     <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
-        <item name="android:windowBackground">@color/page_bg</item>
+        <item name="android:windowBackground">@drawable/popup_bg</item>
         <item name="android:textColorHighlight">@color/text_highlight_color</item>
 
         <!--  Overriding AppCompat values -->

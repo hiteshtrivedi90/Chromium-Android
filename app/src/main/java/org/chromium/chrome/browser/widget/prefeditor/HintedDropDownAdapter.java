@@ -5,6 +5,7 @@
 package org.chromium.chrome.browser.widget.prefeditor;
 
 import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewCompat;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,8 +66,9 @@ public class HintedDropDownAdapter<T> extends DropdownFieldAdapter<T> {
             ViewCompat.setPaddingRelative(convertView, ViewCompat.getPaddingStart(convertView), 0,
                     ViewCompat.getPaddingEnd(convertView), 0);
             mTextView.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
-            ApiCompatibilityUtils.setTextAppearance(
-                    mTextView, android.R.style.TextAppearance_Widget_DropDownItem);
+            mTextView.setTextColor(ContextCompat.getColor(mTextView.getContext(), R.color.text_color_primary));
+//            ApiCompatibilityUtils.setTextAppearance(
+//                    mTextView, android.R.style.TextAppearance_Widget_DropDownItem);
         }
         convertView = super.getDropDownView(position, convertView, parent);
 

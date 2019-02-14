@@ -31,10 +31,10 @@ import java.util.ArrayList;
  */
 @VisibleForTesting
 public class OmniboxSuggestionsList extends ListView {
-    private static final int OMNIBOX_RESULTS_BG_COLOR = 0xFFF5F5F6;
-    private static final int OMNIBOX_RESULTS_CHROME_MODERN_BG_COLOR = 0xFFFFFFFF;
-    private static final int OMNIBOX_INCOGNITO_RESULTS_BG_COLOR = 0xFF323232;
-    private static final int OMNIBOX_INCOGNITO_RESULTS_CHROME_MODERN_BG_COLOR = 0xFF3C4043;
+    private static final int OMNIBOX_RESULTS_BG_COLOR = 0xFF272727;
+    private static final int OMNIBOX_RESULTS_CHROME_MODERN_BG_COLOR = 0xFF272727;
+    private static final int OMNIBOX_INCOGNITO_RESULTS_BG_COLOR = 0xFF272727;
+    private static final int OMNIBOX_INCOGNITO_RESULTS_CHROME_MODERN_BG_COLOR = 0xFF272727;
 
     private final OmniboxSuggestionListEmbedder mEmbedder;
     private final int mSuggestionHeight;
